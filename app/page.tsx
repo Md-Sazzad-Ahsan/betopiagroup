@@ -2,6 +2,8 @@
 import { Hero } from "@/components/Hero";
 import { LogoCarousel } from "@/components/LogoCarousel";
 import { SecondHero } from "@/components/SecondHero";
+import { ThirdHero } from "@/components/ThirdHero";
+import { FourthHero } from "@/components/FourthHero";
 
 export default function Home() {
   return (
@@ -9,6 +11,8 @@ export default function Home() {
       <Hero />
       <LogoCarousel />
       <SecondHero />
+      <ThirdHero />
+      <FourthHero />
     </div>
   );
 }

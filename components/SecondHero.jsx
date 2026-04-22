@@ -23,7 +23,7 @@ export function SecondHero() {
                 className="w-full h-auto object-contain rounded-t-xl md:rounded-t-none md:rounded-l-xl"
               />
             </div>
-            <div className="md:w-1/2 flex flex-col justify-center p-8 text-center md:text-left">
+            <div className="md:w-1/2 flex flex-col justify-center p-5 md:p-8">
               <h3 className="text-xl md:text-2xl font-semibold text-gray-900 mb-4">
                 Delivering secure, cloud-native, and AI-powered software platforms
               </h3>
@@ -34,7 +34,7 @@ export function SecondHero() {
           </div>
 
           {/* Text Block - Bottom Left */}
-          <div className="bg-white rounded-xl shadow-lg p-8 flex flex-col justify-center">
+          <div className="bg-white rounded-xl shadow-lg p-5 md:p-8 flex flex-col justify-center">
             <h3 className="text-xl md:text-2xl font-semibold text-gray-900 mb-4">
               Expertise in Cloud, AI, Cybersecurity, and enterprise-grade products
             </h3>
@@ -44,7 +44,7 @@ export function SecondHero() {
           </div>
 
           {/* Text Block - Bottom Right */}
-          <div className="bg-white rounded-xl shadow-lg p-8 flex flex-col justify-center">
+          <div className="bg-white rounded-xl shadow-lg p-5 md:p-8 flex flex-col justify-center">
             <h3 className="text-xl md:text-2xl font-semibold text-gray-900 mb-4">
               Vendor-neutral solutions across Microsoft Azure, AWS, and Google Cloud
             </h3>
