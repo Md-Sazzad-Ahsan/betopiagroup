@@ -8,7 +8,7 @@ export function SecondHero() {
           <div className="lg:w-1/2 text-center lg:text-left">
             <div className="flex items-center justify-center lg:justify-start text-blue-600 text-sm font-semibold mb-4">
               <span className="w-2 h-2 bg-blue-600 rounded-full mr-2"></span>
-              BEYOND CONNECTIVITY
+              Betopia Limited
             </div>
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
               Who We Are
