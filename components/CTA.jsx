@@ -12,7 +12,7 @@ export function CTA() {
           <p className="text-base md:text-lg text-gray-300 max-w-2xl mx-auto mb-8 leading-relaxed">
             Join 300+ organizations that trust Betopia to architect, secure, and scale their most critical technology platforms. Let's start with a conversation.
           </p>
-          <Link href="/consultation" className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl">
+          <Link href="/consultation" className="inline-flex items-center gap-2 bg-linear-to-r from-orange-600 via-orange-500 to-orange-400 hover:bg-linear-to-r hover:from-orange-700 hover:via-orange-600 hover:to-orange-500 hover:scale-105 text-white text-sm font-semibold px-8 py-3 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl">
             Book a Consultation
             <RiArrowRightLine size={20} />
           </Link>

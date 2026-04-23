@@ -14,7 +14,9 @@ export const Header = () => {
   return (
     <>
       <nav className="relative flex justify-between items-center mx-auto w-full max-w-8xl py-5 px-4 md:px-10 bg-black">
-        <Image src="/images/betopialogo.png" alt="Betopia Group" width={100} height={50} className="hover:scale-105 cursor-pointer" />
+        <Link href="/">
+          <Image src="/images/betopialogo.png" alt="Betopia Group" width={100} height={50} className="hover:scale-105 cursor-pointer" />
+        </Link>
         
         {/* Hamburger Menu Icon - Mobile Only */}
         <button 
@@ -37,8 +39,8 @@ export const Header = () => {
 
         {/* Desktop Buttons */}
         <div className="hidden md:flex gap-2 text-sm">
-            <Link href="/consutation" className="group flex items-center gap-1 px-4 py-2 border border-orange-400 rounded-lg font-semibold text-sm hover:cursor-pointer bg-linear-to-r from-orange-600 via-orange-500 to-orange-400 text-white hover:from-orange-600 hover:via-orange-600 hover:to-orange-500">Book a Consultation <IoIosArrowForward /></Link>
-            <button className="px-5 py-2 rounded-lg border border-orange-400 font-semibold text-sm hover:cursor-pointer hover:bg-linear-to-r from-orange-600 via-orange-500 to-orange-400 text-white">Sign In</button>
+            <Link href="/consutation" className="group flex items-center gap-1 px-4 py-2 border border-orange-400 rounded-lg font-semibold text-sm hover:cursor-pointer bg-linear-to-r from-orange-600 via-orange-500 to-orange-400 text-white hover:from-orange-600 hover:via-orange-600 hover:to-orange-500 hover:scale-95">Book a Consultation <IoIosArrowForward /></Link>
+            <button className="px-5 py-2 rounded-lg border border-orange-400 font-semibold text-sm hover:cursor-pointer hover:bg-linear-to-r from-orange-600 via-orange-500 to-orange-400 text-white hover:scale-95">Sign In</button>
         </div>
       </nav>
 
