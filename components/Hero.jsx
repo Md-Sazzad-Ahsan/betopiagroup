@@ -32,8 +32,8 @@ export const Hero = () => {
       />
 
       <div className="relative z-10 w-full min-h-screen flex items-start md:items-center">
-        <div className="w-full lg:w-1/2 px-5 sm:px-8 md:px-16 lg:px-20 xl:px-24 py-24 mt-24 sm:mt-0 sm:py-32 md:py-40 text-center lg:text-left">
-          <h1 className="text-5xl lg:text-6xl xl:text-7xl font-extrabold text-white mb-3 sm:mb-4 leading-[1.1] tracking-tight">
+        <div className="w-full lg:w-1/2 px-5 sm:px-8 md:px-16 lg:px-20 xl:px-24 py-24 mt-24 sm:mt-0 sm:pt-24 sm:pb-32 text-center lg:text-left">
+          <h1 className="text-5xl lg:text-6xl font-extrabold text-white mb-3 sm:mb-4 leading-[1.1] tracking-tight">
             From{" "}
             <span className="text-orange-500">
               Bangladesh
@@ -41,11 +41,11 @@ export const Hero = () => {
               {" "}to the World
             </span>
           </h1>
-          <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold text-white mb-8 leading-tight tracking-wide">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-white mb-8 leading-tight tracking-wide">
             Smarter Enterprise Technology
           </h2>
 
-          <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-200 max-w-xl mx-auto lg:mx-0 mb-8 sm:mb-12 leading-[1.6] sm:leading-[1.7] font-light">
+          <p className="text-sm sm:text-base md:text-lg text-gray-200 max-w-xl mx-auto lg:mx-0 mb-8 sm:mb-12 leading-[1.6] sm:leading-[1.7] font-light">
             Betopia Limited architects, deploys, and manages AI-powered cloud
             and enterprise software platforms that help organizations operate
             with greater speed, security, and strategic clarity — wherever
@@ -55,7 +55,7 @@ export const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <Link
               href="/contact"
-              className="group flex items-center justify-center gap-2 px-6 sm:px-8 py-3.5 sm:py-4 bg-linear-to-r from-orange-600 via-orange-500 to-orange-400 text-white rounded-full hover:from-orange-600 hover:via-orange-600 hover:to-orange-500 transition-all duration-300 w-full sm:w-auto text-sm sm:text-base font-semibold shadow-lg shadow-orange-500/30 hover:shadow-orange-500/50"
+              className="group flex items-center justify-center gap-2 px-6 sm:px-8 py-3.5 bg-linear-to-r from-orange-600 via-orange-500 to-orange-400 text-white rounded-full hover:from-orange-600 hover:via-orange-600 hover:to-orange-500 transition-all duration-300 w-full sm:w-auto text-sm font-semibold shadow-lg shadow-orange-500/30 hover:shadow-orange-500/50"
               id="hero-cta-primary"
             >
               Start Your Transformation
@@ -63,7 +63,7 @@ export const Hero = () => {
             </Link>
             <Link
               href="/solutions"
-              className="group flex items-center justify-center gap-2 px-6 sm:px-8 py-3.5 sm:py-4 bg-white/10 backdrop-blur-sm border border-white/20 text-white rounded-full hover:bg-white/20 transition-all duration-300 w-full sm:w-auto text-sm sm:text-base font-semibold"
+              className="group flex items-center justify-center gap-2 px-6 sm:px-8 py-3.5 bg-white/10 backdrop-blur-sm border border-white/20 text-white rounded-full hover:bg-white/20 transition-all duration-300 w-full sm:w-auto text-sm font-semibold"
               id="hero-cta-secondary"
             >
               Explore Our Solutions
