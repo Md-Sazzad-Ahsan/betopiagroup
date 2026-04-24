@@ -4,34 +4,43 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 justify-between">
-          {/* Column 1: Logo and Description */}
-          <div className="space-y-4 md:col-span-2 lg:col-span-2">
+        <div className="grid grid-cols-6 gap-8">
+          {/* Column 1-2: Logo and Description (2 columns) */}
+          <div className="col-span-6 md:col-span-6 lg:col-span-2 space-y-4">
             <div className="flex items-center space-x-2">
               <img src="/images/betopialogo.png" alt="Betopia Logo" className="h-10 w-auto" />
             </div>
-            <p className="text-gray-400 text-sm leading-relaxed">
+            <p className="text-gray-400 text-sm leading-relaxed max-w-sm">
               Betopia is a leading technology company providing innovative solutions for businesses worldwide. We transform ideas into digital reality.
             </p>
           </div>
 
-          {/* Column 2: Company */}
-          <div className="md:col-span-1 lg:col-span-1">
-            <h3 className="text-lg font-semibold mb-4">Company</h3>
-            <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Home</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">About</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Solutions</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Products</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Services</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Partner Program</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Career at Betopia</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Contact Us</a></li>
-            </ul>
+          {/* Column 3-4: Company (2 columns with separate headers) */}
+          <div className="col-span-6 lg:col-span-2">
+            <div className="grid grid-cols-2 gap-4">
+              <div>
+                <h3 className="text-lg font-semibold mb-4">Navigate</h3>
+                <ul className="space-y-2">
+                  <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Home</a></li>
+                  <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">About</a></li>
+                  <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Products</a></li>
+                  <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Services</a></li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold mb-4">Company</h3>
+                <ul className="space-y-2">
+                  <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Solutions</a></li>
+                  <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Partner Program</a></li>
+                  <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Career at Betopia</a></li>
+                  <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
           </div>
 
-          {/* Column 3: Resources */}
-          <div className="md:col-span-1 lg:col-span-1">
+          {/* Column 5: Resources (1 column) */}
+          <div className="col-span-3 lg:col-span-1">
             <h3 className="text-lg font-semibold mb-4">Resources</h3>
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">News Alerts</a></li>
@@ -40,8 +49,8 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Column 4: Reviews */}
-          <div className="md:col-span-2 lg:col-span-1">
+          {/* Column 6: Reviews (1 column) */}
+          <div className="col-span-3 lg:col-span-1">
             <h3 className="text-lg font-semibold mb-4">Reviews</h3>
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">G2</a></li>
